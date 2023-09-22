@@ -1,5 +1,5 @@
 function calculateMinCost() {
-  //your code here
+    // Get the input element
     var ropeInput = document.getElementById("rope-lengths");
 
     // Get the comma-separated rope lengths and convert them to an array of integers
@@ -43,8 +43,5 @@ function calculateMinCost() {
     // Display the minimum cost in the "result" div
     var resultDiv = document.getElementById("result");
     resultDiv.innerHTML = "Minimum Cost: " + totalCost;
+}
 
-  
-  
-  
-}  
